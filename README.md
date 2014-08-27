@@ -26,4 +26,5 @@
   * Combination of the above queries.
 
 __Disclaimer 1__ : The following code will only run when connected to the IIT Bombay intranet (requires access to server [ldap.iitb.ac.in](http://www.cse.iitb.ac.in/~swlab/servers.html))
+
 __Disclaimer 2__ : Branch Change is not accounted for, in the data present on the ldap server. (Some students' data maybe incorrect)
