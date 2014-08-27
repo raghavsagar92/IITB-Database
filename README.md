@@ -1,5 +1,5 @@
 
-### How to use my code:
+## How to use my code:
 
 1. My code in Java SE, with following modules used:
   1. [JDBC](http://en.wikipedia.org/wiki/Java_Database_Connectivity) for Postgresql connection
@@ -15,3 +15,14 @@
   * __src/utils/Config.java__: Change variable 'LDAP_DUMP_FILE' as per your requirements.
 5. You are ready now, you can build and run the project.
 
+## Uses:
+
+1. Once the database is loaded we can run simple sql queries for the following:
+  * Find student information from their 'Roll No' or 'Name'
+  * Find all students in a particular department
+  * Find all faculty in a particular department
+  * Find all students from a particular batch (check the starting 2 digits of Roll No)
+  * Find all students based on under-graguate(UG) or dual-degree(DD) or post-graguate(PG) course.
+  * Combination of the above queries.
+
+Disclaimer : __Branch Change__ is not accounted for, in the data present on the ldap server. (Some students' data maybe incorrect)
