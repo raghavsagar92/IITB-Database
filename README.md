@@ -25,4 +25,4 @@
   * Find all students based on under-graguate(UG) or dual-degree(DD) or post-graguate(PG) course.
   * Combination of the above queries.
 
-Disclaimer : __Branch Change__ is not accounted for, in the data present on the ldap server. (Some students' data maybe incorrect)
+__Disclaimer__ : Branch Change is not accounted for, in the data present on the ldap server. (Some students' data maybe incorrect)
