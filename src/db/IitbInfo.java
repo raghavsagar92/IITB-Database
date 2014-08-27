@@ -101,14 +101,4 @@ public class IitbInfo {
         preparedStatement.close();
         br.close();
     }
-    
-    public static void main(String[] args) throws SQLException, ClassNotFoundException, FileNotFoundException, IOException {
-        DbConfig dbConfig = new DbConfig();
-        IitbInfo studentInfo = new IitbInfo();
-        studentInfo.createTable( dbConfig.getConnection() );
-        studentInfo.clearTable(dbConfig.getConnection() );
-        studentInfo.populateTable( dbConfig.getConnection() );
-        studentInfo.createIndexes( dbConfig.getConnection() );
-        dbConfig.close();
-    }
 }

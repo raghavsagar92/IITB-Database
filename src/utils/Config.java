@@ -18,10 +18,9 @@ public class Config {
     public static final String LDAP_FILTER_RANGE = "(&(uidNumber>=?)(uidNumber<=?))"; 
     public static final String LDAP_FILTER_EQUAL = "(uidNumber=?)"; 
     
-    public static String LDAP_DUMP_FILE = "data/dumps/iitb_info.dat";
-    public static String TEMP_FILE = "data/temp/temp.dat";
-    
     public static final int QUERY_MAX_RESULTS = 50;
     public static final int UID_CAP = 60001;
     
+    /**************** File Paths **************/
+    public static String LDAP_DUMP_FILE = "data/dumps/iitb_info.dat";       
 }

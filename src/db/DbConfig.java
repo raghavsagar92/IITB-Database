@@ -18,7 +18,7 @@ public class DbConfig {
     public static String driverName = "org.postgresql.Driver";
     public static String url = "jdbc:postgresql://127.0.0.1:5432/iitbdb";
     public static String username = "raghav";
-    public static String password = "raghav_postgres";
+    public static String password = "****";
     
     public static String IITB_INFO_TABLE = "iitb_info";
     
